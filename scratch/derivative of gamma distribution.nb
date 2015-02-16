@@ -1,0 +1,82 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1969,         72]
+NotebookOptionsPosition[      1650,         55]
+NotebookOutlinePosition[      2002,         71]
+CellTagsIndexPosition[      1959,         68]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Simplify", "[", 
+  RowBox[{"D", "[", 
+   RowBox[{
+    RowBox[{"Log", "[", 
+     RowBox[{
+      RowBox[{"1", "/", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"Gamma", "[", "\[Alpha]", "]"}], "*", 
+         RowBox[{"\[Theta]", "^", "\[Alpha]"}]}], ")"}]}], "*", 
+      RowBox[{"z", "^", 
+       RowBox[{"(", 
+        RowBox[{"\[Alpha]", "-", "1"}], ")"}]}], "*", 
+      RowBox[{"E", "^", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"-", "z"}], "/", "\[Theta]"}], ")"}]}]}], "]"}], ",", 
+    "\[Alpha]"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6328493663723927`*^9, 3.632849535379209*^9}, {
+  3.632849686188492*^9, 3.632849720652178*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Log", "[", "z", "]"}], "-", 
+  RowBox[{"Log", "[", "\[Theta]", "]"}], "-", 
+  RowBox[{"PolyGamma", "[", 
+   RowBox[{"0", ",", "\[Alpha]"}], "]"}]}]], "Output",
+ CellChangeTimes->{{3.6328493847585783`*^9, 3.63284940270997*^9}, {
+  3.632849517896091*^9, 3.632849535776039*^9}, {3.63284969574627*^9, 
+  3.6328497209803133`*^9}}]
+}, Open  ]]
+},
+WindowSize->{808, 751},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+FrontEndVersion->"10.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (June 27, \
+2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 691, 20, 28, "Input"],
+Cell[1274, 44, 360, 8, 62, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
